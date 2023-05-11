@@ -28,7 +28,7 @@ void loop()
   Serial.print(F("Date/Time: "));
   Serial.println(t);
 
-  if (now.hour() == 16 && now.minute() == 35) // pengaturan jam  
+  if (now.hour() == 16 && now.minute() == 35) //Alarm Configuration
   {
     myservo.write(180);              
     delay(15);                       
